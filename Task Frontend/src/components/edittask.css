@@ -1,0 +1,13 @@
+.editpage {
+    width: 300px;
+    height: 420px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 400px;
+    /* border: 1px solid; */
+    box-shadow: rgba(50, 134, 167, 0.994) 0px 14px 28px, rgba(8, 114, 140, 0.96) 0px 10px 10px;
+}

@@ -1,0 +1,10 @@
+.alltasks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.h1{
+    color: rgb(19, 131, 131);
+    margin-left: 60px;
+}

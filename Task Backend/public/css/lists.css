@@ -1,0 +1,63 @@
+.lists{
+    width: 400px;
+    border: 1px solid gainsboro;
+    margin-left: 300px;
+    background-color: rgba(176, 217, 240, 0.998);
+    border-radius: 10px;
+}
+.list{
+    font-size: medium;
+    font-family: 'Yeon Sung', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    border: 1px solid gainsboro;
+    background-color: rgb(89, 181, 170);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* flex-direction: row; */
+}
+.editbtn{
+    margin-left: 5px;
+}
+.delbtn{
+    margin-left: 225px;
+}
+.btn{
+    font-family: 'Courgette', cursive; 
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+.btns{
+    flex-direction: row;
+}
+.para{
+    padding: 0px 0px;
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+}
+.addlink{
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    color: black;
+}
+.goback{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.description{
+    font-size: 20px;
+    margin-left: 40px;
+    color: white
+}

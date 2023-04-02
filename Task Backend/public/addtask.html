@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Sevillana&family=Yeon+Sung&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <h1 class="head">To Do List</h1>
+      <div class="child">
+        <form action="" id="form">
+          <input
+            type="text"
+            placeholder="Enter Task"
+            class="taskname"
+            id="taskname"
+          /><br />
+          <textarea
+            name="Task Description"
+            class="taskdescrip"
+            cols="32"
+            rows="6"
+            placeholder="Enter Task Description"
+            id="taskdescrip"
+          ></textarea>
+          <br /><br />
+          <button class="addbtn">Add Task</button><br /><br />
+          <button class="listbtn">
+            <a href="index.html" class="listlink">lists</a>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="addtask.js"></script>
+  </body>
+</html>

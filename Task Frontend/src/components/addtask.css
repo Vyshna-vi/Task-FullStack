@@ -1,0 +1,44 @@
+.main {
+    width: 300px;
+    height: 420px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 400px;
+    /* border: 1px solid; */
+    box-shadow: rgb(34, 121, 168) 0px 14px 28px, rgba(36, 141, 182, 0.22) 0px 10px 10px;
+}
+
+.alltaskbtn {
+    margin-left: 5px;
+}
+
+.heading {
+    margin-top: 50px;
+}
+
+.hcom {
+    margin-bottom: 0;
+}
+
+.taskname {
+    margin-right: 120px;
+    margin-bottom: 8px;
+
+}
+
+.taskdescrip {
+    margin-right: 80px;
+    margin-bottom: 8px;
+}
+
+.btns {
+    margin-bottom: 30px;
+    width: 240px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+}

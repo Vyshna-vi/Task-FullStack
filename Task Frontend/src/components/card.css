@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+.card {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    /* border: 1px solid; */
+    box-shadow: rgb(34, 178, 183) 0px 2px 4px, rgb(31, 132, 160) 0px 7px 13px -3px, rgb(27, 167, 177) 0px -3px 0px inset;
+}
+
+.name {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: rgb(20, 161, 114);
+    font-family: 'Roboto Slab', serif;
+}
+
+.para1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    color: rgb(21, 87, 5);
+    font-family: 'Alkatra', cursive;
+}
+
+.para2 {
+    margin-top: 0px;
+    margin-left: 30px;
+    color: rgb(21, 87, 5);
+    font-family: 'Alkatra', cursive;
+    margin-bottom: 0px;
+}
+
+.descrip {
+    /* margin-top: 40px; */
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: rgb(20, 161, 114);
+    font-family: 'Roboto Slab', serif;
+}
+
+.complete {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    /* color: rgb(20, 161, 114); */
+    font-family: 'Roboto Slab', serif;
+}
+
+.icons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon:hover {
+    color: cadetblue;
+}
+
+.done {
+    color: green;
+    margin-left: 100px;
+}
+
+.close {
+    color: red;
+    margin-left: 100px;
+}
