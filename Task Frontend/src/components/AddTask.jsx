@@ -7,6 +7,7 @@ import { blue } from '@mui/material/colors';
 import { useRef } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { addTask } from '../API/api';
 
 function AddTask() {
 
@@ -21,7 +22,7 @@ function AddTask() {
             task_name: taskname.current.value,
             task_descrip: taskdescrip.current.value,
         }
-        const res = await axios.post("http://localhost:5000/add-task", tasks)
+        const res = await axios.post(addTask, tasks)
         console.log(res)
         if (res.data.sucess == true) {
             navigate("/alltask")
