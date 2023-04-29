@@ -24,6 +24,7 @@ function EditTask() {
             task_name: taskname,
             task_descrip: description,
         }
+        console.log(task);
         const res = await axios.patch(editTask + location.state._id,task)
         console.log(res);
         if (res.data.sucess == true) {
