@@ -1,9 +1,14 @@
-export const getAllTask = "http://localhost:5000/get-all-task"
 
-export const deleteTask = "http://localhost:5000/delete-task/"
+const apikey="https://task-ho5k.onrender.com"
 
-export const updateTask = "http://localhost:5000/update-one-task/"
 
-export const editTask = "http://localhost:5000/update-one-task/"
 
-export const addTask = "http://localhost:5000/add-task"
+export const getAllTask = apikey+"/get-all-task"
+
+export const deleteTask = apikey+"/delete-task/"
+
+export const updateTask = apikey+"/update-one-task/"
+
+export const editTask = apikey+"/update-one-task/"
+
+export const addTask = apikey+"/add-task"
